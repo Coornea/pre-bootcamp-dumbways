@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Case</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <form action="" class="form-container">
+        <h3 style="text-align: center;">Study Case</h3>
+        <div>
+            <table style="margin-bottom: 8px;">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 0 - 1 </td>
+                        <td> Bayi </td>
+                    </tr>
+                    <tr>
+                        <td> 2 - 10 </td>
+                        <td> Anak-anak </td>
+                    </tr>
+                    <tr>
+                        <td> 11 - 19 </td>
+                        <td> Remaja </td>
+                    </tr>
+                    <tr>
+                        <td> 20 - 60 </td>
+                        <td> Dewasa </td>
+                    </tr>
+                    <tr>
+                        <td> > 60 </td>
+                        <td> Lansia </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <label>Input Age:</label>
+            <input class="custom-input" type="number" id="ages" oninput="stdCase(event.target.value)" class="form-control" placeholder="masukkan umur disini" />
+        </div>
+        <div>
+            <label>Output:</label>
+            <p id="print"> - </p>
+        </div>
+        <div class="example-box">
+            <p>Input: 3</p>
+            <p>Output: Umur 3 tahun adalah anak-anak</p>
+        </div>
+    </form>
+    
+    <script src="8.study_case.js"></script>
+
+</body>
+</html>

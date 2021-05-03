@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Temperature</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <section>
+        <div>
+            <form action="" class="form-container" onsubmit="convertTemp();">
+                <h3 style="text-align: center;">Convert Temperature</h3>
+                <div>
+                    <label>Pilih Suhu:</label>
+                    <select class="custom-input" name="suhu1" id="suhu1">
+                        <option value="Celcius">Celcius</option>
+                        <option value="Reamur">Reamur</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                    </select>
+                    <input class="custom-input" type="number" id="input" />
+                </div>
+                <div>
+                    <label>Konversi ke:</label>
+                    <select class="custom-input" name="suhu2" id="suhu2" >
+                        <option value="Celcius">Celcius</option>
+                        <option value="Reamur">Reamur</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Convert</button>
+                    <br>
+                    <label>Output: </label>
+                    <p id="print"> - </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="7.conv_temp.js"></script>
+
+</body>
+</html>

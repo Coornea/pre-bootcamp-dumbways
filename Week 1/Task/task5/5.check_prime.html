@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Prime Number</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <div>
+        <form action="" class="form-container">
+            <h3 style="text-align: center;">Prime Checker</h3>
+            <div>
+                <label>Input Number:</label>
+                <input class="custom-input" type="number" id="input" oninput="primeCheck(event.target.value)" class="form-control" placeholder="Input Numbers">
+            </div>
+            <div>
+                <label>Output:</label>
+                <p id="print" > - </p>
+            </div>
+            <div class="example-box">
+                <label>For example:</label>
+                <p>Input: 23</p>
+                <p>Output: 23 adalah bilangan prima</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="5.check_prime.js"></script>
+
+</body>
+</html>

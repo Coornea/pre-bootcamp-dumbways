@@ -1,0 +1,106 @@
+body {
+    background: rgb(16,102,166);
+    background: -moz-linear-gradient(90deg, rgba(16,102,166,1) 0%, rgba(2,141,161,1) 55%, rgba(19,160,189,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(16,102,166,1) 0%, rgba(2,141,161,1) 55%, rgba(19,160,189,1) 100%);
+    background: linear-gradient(90deg, rgba(16,102,166,1) 0%, rgba(2,141,161,1) 55%, rgba(19,160,189,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1066a6",endColorstr="#13a0bd",GradientType=1); 
+    /* font-family: "Poppins", sans-serif; */
+  }
+  
+  table{
+    border-collapse: collapse;
+  }
+
+  table th{
+    background: rgb(7, 212, 34);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid rgb(7, 212, 34);
+  }
+
+  table td{
+    padding: 4px 8px;
+    border: 2px solid rgb(7, 212, 34);
+  }
+
+  .container {
+    padding: 10px 10%;
+  }
+
+  .form-container h3{
+    font-size: 30pt;
+    /* font-family: 'Caveat Brush', cursive; */
+    color: rgba(0, 132, 255, 0.877);
+  }
+
+  .form-container h4{
+    font-size: 16pt;
+  }
+
+  label{
+    font-size: 13pt;
+  }
+  
+  .form-container {
+    margin: 5% 30%;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 10px 30px 5%;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    min-height: 60vh;
+  }
+  
+  .custom-input {
+    padding: 2px;
+    height: 30px;
+    line-height: 30px;
+    width: 99.2%;
+    font-size: 18px;
+    border: 2px solid rgba(60, 211, 211, 0.788);
+    border-radius: 5px;
+    margin: 6px auto;
+  }
+  
+  .btn-primary {
+    background: #20ad2c;
+    height: 42px;
+    padding: 0 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin: 5px 0px;
+  }
+  
+  .btn-primary:hover {
+    cursor: pointer;
+    background: #9cda0b;
+  }
+  
+  .btn-reset{
+    background:rgba(0, 0, 0, 0.5);
+    height: 42px;
+    padding: 0 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin: 5px 0px;
+  }
+
+  .btn-reset:hover{
+    cursor: pointer;
+    background: red;
+  }
+
+  .example-box{
+    border: 2px solid rgb(7, 212, 34);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }

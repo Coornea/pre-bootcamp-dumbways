@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Letters</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <section>
+        <form action="" class="form-container">
+            <h3 style="text-align: center;">Count Letters</h3>
+            <div>
+                <div>
+                    <label>Masukkan kata atau kalimat</label>
+                    <input class="custom-input" type="text" id="input" oninput="charCount(event.target.value)"/>
+                    <label>Masukkan kata huruf yang akan dihitung</label>
+                    <input class="custom-input" type="text" id="input2" oninput="charCount(event.target.value)"/>
+                </div>
+                <div>
+                    <label>Output:</label>
+                    <p id="print" ></p>
+                </div>
+                <div class="example-box">
+                    <p>Input: saya mau makan nasi ya guys</p>
+                    <p>Output: total huruf a sebanyak 8 buah</p>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script src="9.count_letters.js"></script>
+
+</body>
+</html>

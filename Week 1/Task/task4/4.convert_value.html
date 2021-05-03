@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Values</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <div>
+        <form action="" class="form-container">
+            <h3 style="text-align: center;">Convert Values</h3>   
+            <div>
+                <table border="1" width="50%">
+                    <thead>
+                        <tr>
+                            <th>Range</th>
+                            <th>Class</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td> 86-100 </td>
+                            <td> A </td>
+                        </tr>
+                        <tr>
+                            <td> 70-85 </td>
+                            <td> B </td>
+                        </tr>
+                        <tr>
+                            <td> 50-69 </td>
+                            <td> C </td>
+                        </tr>
+                        <tr>
+                            <td> 30-49 </td>
+                            <td> D </td>
+                        </tr>
+                        <tr>
+                            <td> 0-29 </td>
+                            <td> E </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <p>Input: 80</p>
+                <p>Output: Nilai konversi adalah B</p>
+            </div>
+            <div>
+                <label>Input Value:</label>
+                <input class="custom-input" type="number" id="con" oninput="convertValue(event.target.value)" class="form-control" placeholder="1 - 100" />
+            </div>
+            <div>
+                <label>Output:</label>
+                <p id="print"> - </p>
+            </div>
+        </form>
+    </div>
+    
+    <script src="4.convert_value.js"></script>
+
+</body>
+</html>

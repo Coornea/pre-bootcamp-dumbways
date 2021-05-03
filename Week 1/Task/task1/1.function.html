@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">      -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="main-container">
+        <form action="" class="form-container" onsubmit="return printText()">
+            <h3 style="text-align: center;">Function Application</h3>
+            <div class="container1">
+                <h4>Regular Function</h4>
+                <label>Input Text</label>
+                <input type="text" oninput="printText(event.target.value)" class="custom-input" placeholder="Input Text Here">
+            </div>
+            <div class="container2">
+                <label>Output:</label>
+                <p id="print" > </p>
+            </div>
+            <hr>
+            <div class="container3">
+                <h4>Arrow Function</h4>
+                <label>Input Text</label>
+                <input type="text" oninput="print_text(event.target.value)" class="custom-input" placeholder="Input Text Here">
+            </div>
+            <div class="container4">
+                <label>Output:</label>
+                <p id="print2" > </p>
+            </div>
+        </form>
+    </div>
+
+    <script src="1.function.js"></script>
+
+</body>
+</html>

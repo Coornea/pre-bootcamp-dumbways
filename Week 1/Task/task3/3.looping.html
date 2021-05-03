@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    <div>
+        <form action="" class="form-container">
+
+            <h3 style="text-align: center;">Looping Application</h3>
+            <div>
+                <h4>Naik 1 Angka</h4>
+                <label>Input Number:</label>
+                <input class="custom-input" type="number" id="input1" oninput="loop1(event.target.value)" class="form-control" placeholder="Input Numbers">
+                <div>
+                    <label>Output:</label>
+                    <p id="print1" > - </p>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <h4>Kuadrat</h4>
+                <label>Input Number:</label>
+                <input class="custom-input" type="number" id="input2" oninput="loop2(event.target.value)" class="form-control" placeholder="Input Numbers">
+                <div>
+                    <label>Output:</label>
+                    <p id="print2" > - </p>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <h4>Kelipatan 3</h4>
+                <label>Input Number:</label>
+                <input class="custom-input" type="number" id="input3" oninput="loop3(event.target.value)" class="form-control" placeholder="Input Numbers">
+                <div>
+                    <label>Output:</label>
+                    <p id="print3" > - </p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="3.looping.js"></script>
+
+</body>
+</html>
