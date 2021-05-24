@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 | Pre-Bootcamp Dumbways</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h3>Task 3 | Pre-Bootcamp Dumbways</h3>
+        
+        <hr>
+        <div>
+            <h4>Concatenate Array</h4>
+            <form>
+                Array 1 : <input type="number" id="array1">
+                Array 2 : <input type="number" id="array2">
+            <button type="button" class="button" onclick="concatenateArray()"><span>Sort and Join</span></button>
+            <p id="result"></p>
+            <p id="result1"></p>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h4>Task Fibonacci Sequence</h4>
+            <form>
+                Limit Number: <input type="number" id="until">
+                <button type="button" class="button" onclick="fibonacciSequence()"><span>Make Sequence</span></button><br>
+                From: <input type="number" id="from">
+                <button type="button" class="button" onclick="fibonacciSequence()"><span>Filter</span></button>
+            </form>
+            <h4 id="result2"></h4>
+        </div>
+        <hr>
+        <div>
+            <h4>Prime Checker</h4>
+            <div>
+                Input Number:<input type="number" id="input" oninput="primeCheck(event.target.value)" class="form-control" placeholder="Input Numbers">
+            </div>
+            <div>
+                Output:<p id="print" > - </p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h4>Counting Letters</h4>
+            <div>
+                <p>Masukkan kata atau kalimat</p>
+                <input class="custom-input" type="text" id="input2" oninput="charCount(event.target.value)"/>
+                <p>Masukkan huruf yang akan dihitung</p>
+                <input class="custom-input" type="text" id="input3" oninput="charCount(event.target.value)"/>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="print2" ></p>
+            </div>
+            <hr>
+        </div>
+        <br>
+            <button type="submit" class="button"><a href="../task2/index.html">Task 2</a></button>
+    </div>
+    <script src="fibonacciSequence.js"></script>
+    <script src="concatenateArrays.js"></script>
+    <script src="countingLetters.js"></script>
+    <script src="primeCheck.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
